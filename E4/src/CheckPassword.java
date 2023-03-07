@@ -16,23 +16,42 @@ public class CheckPassword {
         return number>=2;
     }
 
-    public static void main(String[] args) {
+    public static boolean logIn(){
+
+        System.out.print("$ java CheckPassword ");
         Scanner input = new Scanner(System.in);
         String password = input.nextLine();
 
-        int state = 0;
         boolean length = longEnough(password);
         boolean digit = atLeastTwoDigits(password);
+
+        boolean result = true;
+
         if (!length){
             System.out.println("Password is not valid");
-            state++;
-            System.exit(state);
+            return false;
         } else if (!digit) {
             System.out.println("Password is not valid");
-            state++;
-            System.exit(state);
-        }else {
-            System.out.println("Usage: java CheckPassword "+ password);
+            return false;
+        } else if (password.length() == 0){
+            System.out.println("Usage: java CheckPassword <password>");
+            return false;
+        }
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+
+        boolean log = logIn();
+
+        while(true){
+            if (!log){
+                logIn();
+            } else {
+                System.out.println("Password is valid");
+                break;
+            }
         }
     }
 }

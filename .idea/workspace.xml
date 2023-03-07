@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a1bce9-61ad-415f-a41d-fd7850630d0d" name="Changes" comment="Exercise2 question 1 in 22.03.01">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E4/E4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E4/src/CheckPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b6a1bce9-61ad-415f-a41d-fd7850630d0d" name="Changes" comment="Exercise4 in 23.03.07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E4/src/CheckPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/E4/src/CheckPassword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677676845367</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exercise4 in 23.03.07">
+      <created>1678203310284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678203310284</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +155,7 @@
     <MESSAGE value="a master demo 1" />
     <MESSAGE value="a work in 22.03.01" />
     <MESSAGE value="Exercise2 question 1 in 22.03.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise2 question 1 in 22.03.01" />
+    <MESSAGE value="Exercise4 in 23.03.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise4 in 23.03.07" />
   </component>
 </project>
