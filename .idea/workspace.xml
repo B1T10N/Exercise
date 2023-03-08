@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a1bce9-61ad-415f-a41d-fd7850630d0d" name="Changes" comment="Exercise4 in 23.03.08">
+    <list default="true" id="b6a1bce9-61ad-415f-a41d-fd7850630d0d" name="Changes" comment="Exercise 4 in 23.03.08,and delete a method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E2/src/Spheroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/E2/src/Spheroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E4/src/CheckPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/E4/src/CheckPassword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +39,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Application.CheckPassword">
+    <configuration name="CheckPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckPassword" />
+      <module name="E4" />
+      <option name="PROGRAM_PARAMETERS" value="saduhaidw231321" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="E4" />
+      <option name="PROGRAM_PARAMETERS" value="asdasdasd12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.CheckPassword" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CheckPassword" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -108,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677660125638</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exercise 4 in 23.03.08,and delete a method.">
+      <created>1678262455359</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678262455359</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +175,10 @@
     <MESSAGE value="a branch demo 1" />
     <MESSAGE value="a master demo 1" />
     <MESSAGE value="a work in 22.03.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="a work in 22.03.01" />
+    <MESSAGE value="Exercise 4 in 23.03.08,and delete a method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 4 in 23.03.08,and delete a method." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Exercise$CheckPassword.ic" NAME="CheckPassword Coverage Results" MODIFIED="1678262986054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
