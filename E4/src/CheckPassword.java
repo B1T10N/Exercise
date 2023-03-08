@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class CheckPassword {
     public static boolean longEnough(String password) {
@@ -16,42 +15,30 @@ public class CheckPassword {
         return number>=2;
     }
 
-    public static boolean logIn(){
+    public static void main(String[] args) {
 
-        System.out.print("$ java CheckPassword ");
-        Scanner input = new Scanner(System.in);
-        String password = input.nextLine();
+        int state = 0;
+
+        String password = args[0];
 
         boolean length = longEnough(password);
         boolean digit = atLeastTwoDigits(password);
 
-        boolean result = true;
-
-        if (!length){
+        if (password.length() == 0){
+            System.out.println("Usage: java CheckPassword <password>");
+            state++;
+            System.exit(state);
+        } else if (!length){
             System.out.println("Password is not valid");
-            return false;
+            state++;
+            System.exit(state);
         } else if (!digit) {
             System.out.println("Password is not valid");
-            return false;
-        } else if (password.length() == 0){
-            System.out.println("Usage: java CheckPassword <password>");
-            return false;
-        }
-
-        return result;
-    }
-
-    public static void main(String[] args) {
-
-        boolean log = logIn();
-
-        while(true){
-            if (!log){
-                logIn();
-            } else {
-                System.out.println("Password is valid");
-                break;
-            }
+            state++;
+            System.exit(state);
+        } else {
+            System.out.println("Password is valid");
+            System.exit(state);
         }
 
     }
