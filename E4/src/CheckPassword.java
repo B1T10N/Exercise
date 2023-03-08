@@ -19,16 +19,18 @@ public class CheckPassword {
 
         int state = 0;
 
+        if (args.length == 0){
+            System.out.println("Usage: java CheckPassword <password>");
+            state++;
+            System.exit(state);
+        }
+
         String password = args[0];
 
         boolean length = longEnough(password);
         boolean digit = atLeastTwoDigits(password);
 
-        if (password.length() == 0){
-            System.out.println("Usage: java CheckPassword <password>");
-            state++;
-            System.exit(state);
-        } else if (!length){
+        if (!length){
             System.out.println("Password is not valid");
             state++;
             System.exit(state);
